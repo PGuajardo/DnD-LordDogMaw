@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+// Starting-Page
 // This is an image over lay view function for the dice button
 
 struct ImageOverlay: View{
@@ -46,11 +47,9 @@ struct ContentView: View {
                 .scaledToFit()
                 .overlay(ImageOverlay(), alignment: .center)
         }
-        
-        
-    }
-    
-}
+    }    
+}        
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
